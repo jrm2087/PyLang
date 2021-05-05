@@ -1,0 +1,202 @@
+[INFO  - 2021-05-02T23:09:11.824Z] GhostDriver - Main - running on port 63457
+[INFO  - 2021-05-02T23:09:15.996Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-05-02T23:09:15.996Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.customHeaders:  - {}
+[INFO  - 2021-05-02T23:09:15.996Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-05-02T23:09:15.996Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791
+[ERROR - 2021-05-02T23:09:18.753Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - msg: ReferenceError: Can't find variable: Audio
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:18.753Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - stack:
+  e (https://static.deepl.com/js/utils.chunk.$713df1.js:2)
+  (anonymous function) (https://static.deepl.com/js/utils.chunk.$713df1.js:2)
+  __webpack_require__ (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+  (anonymous function) (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+  __webpack_require__ (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+  (anonymous function) (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+  __webpack_require__ (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+  (anonymous function) (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+  O (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+  (anonymous function) (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:18.973Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - msg: Error: [M] Required module 'WebTranslator_proAd' is not defined.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:18.973Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - stack:
+  (anonymous function) (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:23.884Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - msg: Error: [M] Could not fulfil requirements after timeout: {"Translator_web":false,"LMT_WebTranslator_Instance":true,"LMT_WebTranslator_Dict":false,"$":true,"dlPageState":true,"dlClientState":true,"dlPrivacy":true,"DeviceProps":true,"queryVars":true,"H2":true}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:23.884Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - stack:
+  (anonymous function) (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:23.887Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - msg: Error: [M] Could not fulfil requirements after timeout: {"FeatureManager":false}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:23.887Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - stack:
+  (anonymous function) (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:23.912Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - msg: Error: [M] Could not fulfil requirements after timeout: {"FeatureManager":false,"dlReleaseGroups":true,"dlTexts":true,"dlPageState":true}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:23.912Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - stack:
+  (anonymous function) (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:23.980Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - msg: Error: [M] Could not fulfil requirements after timeout: {"LMT_InitializedWebTranslatorInstance":false,"dlReleaseGroups":true}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:23.980Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - stack:
+  (anonymous function) (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:24.951Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - msg: Error: [M] Could not fulfil requirements after timeout: {"U":true,"H2":true,"LMT_Utils":false,"LMT_UI_Utils":false,"LMT_InitializedWebTranslatorInstance":false}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:24.952Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - stack:
+  (anonymous function) (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:25.416Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - msg: Error: [M] Could not fulfil requirements after timeout: {"LMT_InitializedWebTranslatorInstance":false,"DeviceProps":true,"docTrans_texts":true,"dlAnalytics":true}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:25.416Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - stack:
+  (anonymous function) (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:25.417Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - msg: Error: [M] Could not fulfil requirements after timeout: {"RPC":true,"U":true,"queryVars":true,"dlPageState":true,"dlReleaseGroups":true,"DocTransMain_react":false,"docTrans_config":true,"docTrans_Document":true,"docTrans_texts":true}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:25.417Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - stack:
+  (anonymous function) (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:25.418Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - msg: Error: [M] Could not fulfil requirements after timeout: {"U":true,"$":true,"DocTransMain_react":false,"dlPageState":true,"docTrans_texts":true,"dlStats":true,"docTrans_config":true,"docTrans_base":false,"docTrans_Document":true,"dlReleaseGroups":true,"dlAnalytics":true}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:25.418Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - stack:
+  (anonymous function) (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:25.418Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - msg: Error: [M] Could not fulfil requirements after timeout: {"dlAnalytics":true,"docTrans_controller":false,"docTrans_Document":true}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:25.419Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - stack:
+  (anonymous function) (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:25.419Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - msg: Error: [M] Could not fulfil requirements after timeout: {"U":true,"H2":true,"$":true,"dlPageState":true,"docTrans_texts":true,"DocTransMain_react":false,"docTrans_controller":false,"docTrans_base":false,"docTrans_tools":true,"docTrans_Document":true,"docTrans_usageController":false,"docTrans_usageView":false}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:25.420Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - stack:
+  (anonymous function) (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:25.420Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - msg: Error: [M] Could not fulfil requirements after timeout: {"U":true,"dlRPC":true,"dlPageState":true,"docTrans_base":false}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:25.420Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - stack:
+  (anonymous function) (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:25.421Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - msg: Error: [M] Could not fulfil requirements after timeout: {"U":true,"H2":true,"docTrans_usageController":false}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:25.421Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - stack:
+  (anonymous function) (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:25.508Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - msg: Error: [M] Could not fulfil requirements after timeout: {"LMT_InitializedWebTranslatorInstance":false,"LMT_UI_SystemNotification":false,"dlLoginController":true,"dlPageState":true,"dlReleaseGroups":true,"dlTexts":true,"DeviceProps":true}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-02T23:09:25.508Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - stack:
+  (anonymous function) (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2021-05-02T23:14:12.141Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-02T23:19:12.141Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-02T23:24:12.143Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-02T23:29:12.157Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-02T23:34:12.161Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-02T23:39:12.169Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-02T23:44:12.174Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-02T23:49:12.174Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-02T23:54:12.179Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-02T23:59:12.183Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T00:04:12.188Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T00:09:12.191Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T00:14:12.210Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T00:19:12.211Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T00:24:12.219Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T00:29:12.224Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T00:34:12.233Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T00:39:12.234Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T00:44:12.240Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T00:49:12.244Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T00:54:12.252Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T00:59:12.254Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T01:04:12.278Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T01:09:12.281Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T01:14:12.284Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T01:19:12.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T01:24:12.309Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T01:29:12.314Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T01:34:12.314Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T01:39:12.318Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T01:44:12.332Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T01:49:12.349Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T01:54:12.366Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T01:59:12.381Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T02:04:12.382Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T02:09:12.381Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T02:14:12.389Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T02:19:12.397Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T02:24:12.415Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T02:29:12.419Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T02:34:12.428Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2021-05-03T16:18:08.046Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2021-05-03T16:18:08.845Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - msg: [dlClientState] [object Object]
+
+[ERROR - 2021-05-03T16:18:08.846Z] Session [c824cba0-ab9a-11eb-ab29-33bdff53bb84] - page.onError - msg: [dlClientState] [object Object]
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-03T16:18:08.846Z] Session [c824cba0-ab9a-11eb-ab29-33bdff53bb84] - page.onError - stack:
+[ERROR - 2021-05-03T16:18:08.848Z] Session [6a7d9df0-ab9b-11eb-8c0e-f5769f5e3791] - page.onError - msg: Unhandled promise rejection undefin[ERROR - 2021-05-03T16:18:08.849Z] Session [c824cba0-ab9a-11eb-ab29-33bdff53bb84] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-03T16:18:08.849Z] Session [c824cba0-ab9a-11eb-ab29-33bdff53bb84] - page.onError - stack:
+  exports (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+s function) (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-03T16:18:08.849Z] Session [3390d300-ab98-11eb-830c-d12467893dc4] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-03T16:18:08.849Z] Session [3390d300-ab98-11eb-830c-d12467893dc4] - page.onError - stack:
+  exports (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+-ab9b-11eb-a3c6-bd54281c98fa] - page.onError - stack:
+  (anonymous function) (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-03T16:18:08.803Z] Session [2dea9140-ab9b-11eb-a3c6-bd54281c98fa] - page.onError - msg: Unhandled promise[ERROR - 2021-05-03T16:18:08.827Z] Session [e4b8f4b0-ab97-11eb-ae0b-477188fc7c2b] - page.onError - msg: [dlClientState] [object Object]
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-03T16:18:08.828Z] Session [e4b8f4b0-ab97-11eb-ae0b-477188fc7c2b] - page.onError - stack:
+  (anonymous function) (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-03T16:18:08.830Z] Session [e4b8f4b0-ab97-11eb-ae0b-477188fc7c2b] - page.onError - msg: Unhandled promise rejection undefined
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-05-03T16:18:08.831Z] Session [e4b8f4b0-ab97-11eb-ae0b-477188fc7c2b] - page.onError - stack:
+  exports (https://static.deepl.com/js/translator_late.min.$69e709.js:2)
+
+  phantomjs://platform/console++.js:263 in error
