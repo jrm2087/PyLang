@@ -1,42 +1,26 @@
-# traductorPy
-## Idiomas Disponibles
-Los idiomas disponibles se deben indicar en los parámetros **lan_source** y **lan_to** de la función **translater**. Por defecto si no se envían traduce de español a inglés.
+# TraductorPy
 
-### Idiomas:
+Esta librería te ayudara a traducir el texto que necesites utilizar.
 
 
-- **DE** - alemán
-- **BG** - búlgaro
-- **CS** - checo
-- **ZH** - chino
-- **DA** - danés
-- **SK** - eslovaco
-- **SL** - esloveno
-- **ES** - español
-- **ET** - estonio
-- **FI** - finés
-- **FR** - francés
-- **EL** - griego
-- **HU** - húngaro
-- **EN** - inglés
-- **IT** - italiano
-- **JA** - japonés
-- **LV** - letón
-- **LT** - lituano
-- **NL** - neerlandés
-- **PL** - polaco
-- **PT** - portugués
-- **RO** - rumano
-- **RU** - ruso
-- **SV** - sueco
+## Demo
+Si desea ver más sobre el proyecto puede visitar [este Link.](https://github.com/jrm2087/PyLang)
 
 
 ## Instalación 
+Para instalar y ejecutar este proyecto, simplemente escriba y ejecute
 ```py
-pip install traductorPy
+    pip install traductorPy
 ```
+### Dependencias  
+    - Python 3
+    - selenium
+### Preview
 
-## Uso
+![](/preview.jpg)
+
+
+#### Uso  
 ```py
 from traductorPy import Traductor
 ```
@@ -51,3 +35,42 @@ print(Traductor.translater(translate, lan_source, lan_to))
 print(Traductor.translater(translate))
 ```
 > Hello world !
+
+#### Propiedades de translater
+
+|Propiedad | Tipo | Descripción     | Uso                   | Valor por Defecto |
+|----------|------|-----------------|-----------------------|-------------------|
+|lan_source|string|Idioma           |lan_source ="DE"       |       EN          |
+|lan_to    |string|Idioma           |lan_to ="DE"           |       ES          |
+|translate |string|Texto a traducir |translate ="Hola MundO"|       ''          |
+
+
+# Idiomas Disponibles
+
+| Idioma            |
+|---------------    |
+|**DE** - alemán    |
+|**BG** - búlgaro   |
+|**CS** - checo     |
+|**ZH** - chino     |
+|**DA** - danés     |
+|**SK** - eslovaco  |
+|**SL** - esloveno  |
+|**ES** - español   |
+|**ET** - estonio   |
+|**FI** - finés     |
+|**FR** - francés   |
+|**EL** - griego    |
+|**HU** - húngaro   |
+|**EN** - inglés    |
+|**IT** - italiano  |
+|**JA** - japonés   |
+|**LV** - letón     |
+|**LT** - lituano   |
+|**NL** - neerlandés|
+|**PL** - polaco    |
+|**PT** - portugués |
+|**RO** - rumano    |
+|**RU** - ruso      |
+|**SV** - sueco     |
+
