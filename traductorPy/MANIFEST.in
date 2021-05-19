@@ -1,1 +1,3 @@
 include traductorPy/plugin/chromedriver.exe
+include traductorPy/plugin/chromedriver_linux
+include traductorPy/plugin/chromedriver_mac
