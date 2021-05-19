@@ -4,7 +4,7 @@
 Los idiomas disponibles se deben indicar en los parámetros **lan_source** y **lan_to** de la función **translater**. Por defecto si no se envían traduce de español a inglés.
 
 
-**Idiomas:**
+**Idiomas**
 
 
 - **DE** - alemán
@@ -48,9 +48,9 @@ from traductorPy import Traductor
 
 
 ```
-translate = 'Hola mundo !'
-lan_source = 'ES'
-lan_to = 'PT'
+translate = 'Hola mundo !' 
+lan_source = 'ES' 
+lan_to = 'PT' 
 print(Traductor.translater(translate, lan_source, lan_to))
 ```
 
