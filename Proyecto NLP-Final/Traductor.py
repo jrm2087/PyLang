@@ -1,6 +1,9 @@
 import time
 import bs4 as bs
+import platform
 from selenium import webdriver
+
+SISTEMA = platform.system()
 
 URL = 'https://www.deepl.com/es/translator'
 
@@ -77,7 +80,18 @@ def translater(translate = '', lan_source = 'ES', lan_to = 'EN'):
 
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument('--headless')
-    browser = webdriver.Chrome('plugin\\chromedriver', options=chrome_options)
+    
+    plugin = ''
+    if SISTEMA == 'Windows':
+        plugin = 'plugin\\chromedriver'
+    elif SISTEMA == 'Linux':
+        plugin = 'plugin\\chromedriver_linux'
+    elif SISTEMA == 'Darwin':
+        plugin = 'plugin\\chromedriver_mac'
+    else:
+        raise TranslaterError('No se pudo establecer el Sistema Operativo.')
+
+    browser = webdriver.Chrome(plugin, options=chrome_options)
     browser.get(URL)
     #-------------------- SelecciÓn de idioma --------------------
     # lan_source

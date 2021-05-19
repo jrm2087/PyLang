@@ -1,6 +1,9 @@
 import time
 import bs4 as bs
+import platform
 from selenium import webdriver
+
+SISTEMA = platform.system()
 
 URL = 'https://www.deepl.com/es/translator'
 
@@ -77,7 +80,18 @@ def translater(translate = '', lan_source = 'ES', lan_to = 'EN'):
 
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument('--headless')
-    browser = webdriver.Chrome('plugin\\chromedriver', options=chrome_options)
+    
+    plugin = ''
+    if SISTEMA == 'Windows':
+        plugin = 'plugin\\chromedriver'
+    elif SISTEMA == 'Linux':
+        plugin = 'plugin\\chromedriver_linux'
+    elif SISTEMA == 'Darwin':
+        plugin = 'plugin\\chromedriver_mac'
+    else:
+        raise TranslaterError('No se pudo establecer el Sistema Operativo.')
+
+    browser = webdriver.Chrome(plugin, options=chrome_options)
     browser.get(URL)
     #-------------------- SelecciÓn de idioma --------------------
     # lan_source
@@ -89,8 +103,8 @@ def translater(translate = '', lan_source = 'ES', lan_to = 'EN'):
     
     # lan_to
     try:
-         browser.execute_script("document.getElementsByClassName('lmt__language_select__active')[1].click()")  
-         browser.execute_script("document.querySelectorAll('[dl-test=\""+LANG_TO[lan_to]+"\"]')[0].click()") 
+        browser.execute_script("document.getElementsByClassName('lmt__language_select__active')[1].click()")  
+        browser.execute_script("document.querySelectorAll('[dl-test=\""+LANG_TO[lan_to]+"\"]')[0].click()") 
     except Exception:
         raise TranslaterError(Exception)
     
@@ -105,7 +119,7 @@ def translater(translate = '', lan_source = 'ES', lan_to = 'EN'):
     return target.text
 
 def main():
-    print(translater('Las aves son animales vertebrados, de sangre caliente, que caminan, saltan o se mantienen solo sobre las extremidades posteriores.'))
+    print(translater('Hola mundo!'))
 
 if __name__ == "__main__":
     main()

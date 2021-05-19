@@ -8,7 +8,7 @@ except (IOError, ImportError):
 setup(
   name = 'traductorPy',
   packages = ['traductorPy'],
-  version = '1.3',
+  version = '1.3.1',
   url = 'https://github.com/jrm2087/PyLang',
   description = 'Traductor web',
   long_description = long_description,
