@@ -47,30 +47,30 @@ print(Traductor.translater(translate))
 
 # Idiomas Disponibles
 
-| Idioma            |
-|---------------    |
-|**DE** - alemán    |
-|**BG** - búlgaro   |
-|**CS** - checo     |
-|**ZH** - chino     |
-|**DA** - danés     |
-|**SK** - eslovaco  |
-|**SL** - esloveno  |
-|**ES** - español   |
-|**ET** - estonio   |
-|**FI** - finés     |
-|**FR** - francés   |
-|**EL** - griego    |
-|**HU** - húngaro   |
-|**EN** - inglés    |
-|**IT** - italiano  |
-|**JA** - japonés   |
-|**LV** - letón     |
-|**LT** - lituano   |
-|**NL** - neerlandés|
-|**PL** - polaco    |
-|**PT** - portugués |
-|**RO** - rumano    |
-|**RU** - ruso      |
-|**SV** - sueco     |
+|   Idioma  | Valor |
+|-----------|-------|
+| Alemán    |**DE** |
+| Búlgaro   |**BG** |
+| Checo     |**CS** |
+| Chino     |**ZH** |
+| Danés     |**DA** |
+| Eslovaco  |**SK** |
+| Esloveno  |**SL** |
+| Español   |**ES** |
+| Estonio   |**ET** |
+| Finés     |**FI** |
+| Francés   |**FR** |
+| Griego    |**EL** |
+| Húngaro   |**HU** |
+| Inglés    |**EN** |
+| Italiano  |**IT** |
+| Japonés   |**JA** |
+| Letón     |**LV** |
+| lituano   |**LT** |
+| neerlandés|**NL** |
+| polaco    |**PL** |
+| portugués |**PT** |
+| rumano    |**RO** |
+| ruso      |**RU** |
+| sueco     |**SV** |
 
