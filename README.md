@@ -12,12 +12,13 @@ Para instalar y ejecutar este proyecto, simplemente escriba y ejecute
 ```py
     pip install traductorPy
 ```
+![TraductorPY Example](https://i.postimg.cc/wx2MJjH3/Instalacion.gif)
 ### Dependencias  
     - Python 3
     - selenium
 ### Preview
 
-![](/preview.jpg)
+![TraductorPY Example](https://i.postimg.cc/CL6KPrRg/Ejecucion.gif)
 
 
 #### Uso  
