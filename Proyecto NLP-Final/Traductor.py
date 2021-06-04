@@ -2,10 +2,13 @@ import time
 import bs4 as bs
 import platform
 from selenium import webdriver
+import os
 
 SISTEMA = platform.system()
 
 URL = 'https://www.deepl.com/es/translator'
+
+PATH = os.path.dirname(os.path.abspath(__file__))
 
 LANG_SOURCE = {
     "DE":"translator-lang-option-de",#alemán
@@ -83,11 +86,11 @@ def translater(translate = '', lan_source = 'ES', lan_to = 'EN'):
     
     plugin = ''
     if SISTEMA == 'Windows':
-        plugin = 'plugin\\chromedriver'
+        plugin = f'{PATH}{os.path.sep}plugin{os.path.sep}chromedriver'
     elif SISTEMA == 'Linux':
-        plugin = 'plugin\\chromedriver_linux'
+        plugin = f'{PATH}{os.path.sep}plugin{os.path.sep}chromedriver_linux'
     elif SISTEMA == 'Darwin':
-        plugin = 'plugin\\chromedriver_mac'
+        plugin = f'{PATH}{os.path.sep}plugin{os.path.sep}chromedriver_mac'
     else:
         raise TranslaterError('No se pudo establecer el Sistema Operativo.')
 
@@ -119,7 +122,7 @@ def translater(translate = '', lan_source = 'ES', lan_to = 'EN'):
     return target.text
 
 def main():
-    print(translater('Las aves son animales vertebrados, de sangre caliente, que caminan, saltan o se mantienen solo sobre las extremidades posteriores.'))
+    print(translater('Hola mundo!'))
 
 if __name__ == "__main__":
     main()
