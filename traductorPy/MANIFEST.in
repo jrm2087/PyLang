@@ -1,3 +1,4 @@
-include traductorPy/plugin/chromedriver.exe
-include traductorPy/plugin/chromedriver_linux
-include traductorPy/plugin/chromedriver_mac
+global-exclude *.py[cod] __pycache__ .DS_Store
+recursive-include t4KL/plugins *
+graft t4KL
+include README.md

@@ -1,14 +1,18 @@
 from distutils.core import setup
 
 try:
-    long_description = open('README.md', encoding='utf-8').read()
-except (IOError, ImportError):
-    long_description = ''
+    import pypandoc
+    long_description = pypandoc.convert('README.md', 'rst')
+except(IOError, ImportError):
+    long_description = open('README.md').read()
   
 setup(
   name = 'traductorPy',
-  packages = ['traductorPy'],
-  version = '1.3.2',
+  packages = ['traductorPy', 'traductorPy.plugin'],
+  include_package_data=True,
+  package_dir={'traductorPy.plugin': 'traductorPy/plugin'},
+  package_data={'traductorPy.plugin': ['*']},
+  version = '1.5',
   url = 'https://github.com/jrm2087/PyLang',
   description = 'Traductor web',
   long_description = long_description,

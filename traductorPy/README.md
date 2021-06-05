@@ -2,12 +2,26 @@
 
 Esta librería te ayudara a traducir el texto que necesites utilizar.
 
+
+## Demo
+Si desea ver más sobre el proyecto puede visitar [este Link.](https://camilocastellanos.github.io/PyLangWeb/)
+
+
 ## Instalación 
 Para instalar y ejecutar este proyecto, simplemente escriba y ejecute
 ```py
     pip install traductorPy
 ```
-## Uso  
+![TraductorPY Example](https://i.postimg.cc/wx2MJjH3/Instalacion.gif)
+### Dependencias  
+    - Python 3
+    - selenium
+### Preview
+
+![TraductorPY Example](https://i.postimg.cc/CL6KPrRg/Ejecucion.gif)
+
+
+#### Uso  
 ```py
 from traductorPy import Traductor
 ```
@@ -60,3 +74,4 @@ print(Traductor.translater(translate))
 | rumano    |**RO** |
 | ruso      |**RU** |
 | sueco     |**SV** |
+
